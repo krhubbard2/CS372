@@ -1,2 +1,2 @@
-
 Edited file via command line.
+Edited file on GitHub.
