@@ -159,10 +159,32 @@ showpage
 
 
 
-/circle {
-  newpath
-    0 360 arc closepath
-} def
 
-144 144 72 circle stroke
-showpage                % We're done... eject the page
+% Face
+144 144 72 0 360 arc
+stroke
+
+% Left eye
+newpath
+110 165 moveto
+130 165 lineto
+stroke
+
+% Right eye
+newpath
+160 165 moveto
+180 165 lineto
+stroke
+
+% Nose
+newpath
+145 150 moveto
+145 140 lineto
+stroke
+
+% Mouth
+newpath
+144 144 50 180 360 arc
+stroke
+
+showpage
